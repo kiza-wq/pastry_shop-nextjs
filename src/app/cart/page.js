@@ -132,11 +132,11 @@ export default function CartPage() {
               addressProps={address}
               setAddressProps={handleAddressChange}
             />
-            <button
+               <button
               type="submit"
-              className="px-4 xl:px-8 py-1 xl:py-2 hover:bg-green-100 border border-black rounded-3xl text-md md:text-xl mt-5"
+              className="px-4 py-1 bg-yellow-300 hover:bg-yellow-400 border-2 border-gray-500 rounded-xl text-lg md:text-2xl mt-5"
             >
-              Pay € {total}
+              Pay: € {total}
             </button>
           </form>
         </div>
